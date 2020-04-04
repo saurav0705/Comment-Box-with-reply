@@ -1,0 +1,43 @@
+.post{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.post-options{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: blue;
+    color: white;
+    border: 2px solid white;
+}
+.post-content{
+    padding: 20px;
+    background-color: lightskyblue;
+    color: white;
+}
+
+.tile{
+    padding: 10px;
+}
+.tile:hover{
+    background-color: lightskyblue;
+    
+}
+
+
+.comment-main{
+    padding: 10px;
+}
+.comment-input{
+    width: 90%;
+    height:20px;
+    padding: 10px;
+    font-weight: 800;
+}
+
+.none{
+    display: none;
+}
